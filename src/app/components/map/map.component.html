@@ -1,0 +1,12 @@
+
+<div class="input-group add-on full-width pad-bottom pad-top">
+  
+  <input class="form-control" placeholder="Search for a location..." [(ngModel)]="search" name="srch-term" id="srch-term" type="text">
+  
+  <div class="input-group-btn">
+    <button class="btn btn-default" (click)="find(search)"><i class="glyphicon glyphicon-search"></i></button>
+  </div>
+
+</div>
+
+<div #map style="width:100%; height:400px; background-color: whitesmoke"></div>
